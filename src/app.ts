@@ -1,7 +1,9 @@
 //copy video.js from module to server
 import fs from 'fs';
 try {
-    fs.mkdirSync('public/javascripts');
+    if (!fs.existsSync('public/javascripts')) {
+        fs.mkdirSync('public/javascripts');
+    }
     fs.copyFileSync('node_modules/video.js/dist/video.js', 'public/javascripts/video.js');
     fs.copyFileSync('node_modules/video.js/dist/video-js.css', 'public/stylesheets/video-js.css');
     fs.copyFileSync('node_modules/@videojs/http-streaming/dist/videojs-http-streaming.js', 'public/javascripts/videojs-http-streaming.js');

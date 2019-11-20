@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live – <%=streamname%></title>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <link href="/stylesheets/video-js.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1><%=streamname%></h1>
+
+        <video-js
+            id="livestream"
+            class="vjs-default-skin"
+            class="vjs-big-play-centered"
+            autoplay
+            controls
+        >
+            <source
+                src="/media/live/<%=streamname%>/index.m3u8"
+                type="application/x-mpegURL"
+            />
+        </video-js>
+        <script src="/javascripts/video.js"></script>
+        <script src="/javascripts/videojs-http-streaming.js"></script>
+        <script>
+            var player = videojs("livestream");
+            player.play();
+        </script>
+    </body>
+</html>

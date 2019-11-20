@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Choose Your Stream</h1>
+    <% for (var i = 0; i< streamnames.length; i++) {%>
+      <a href="/live/<%=streamnames[i]%>"><p><%=streamnames[i]%></p></a>
+    <%}%>
+  </body>
+</html>

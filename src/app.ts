@@ -1,8 +1,8 @@
 //copy video.js from module to server
 import fs from 'fs';
-fs.copyFile('node_modules/video.js/dist/video.js', 'public/javascripts/video.js', (err) => { if (err) { console.log(err) } });
-fs.copyFile('node_modules/video.js/dist/video-js.css', 'public/stylesheets/video-js.css', (err) => { if (err) { console.log(err) } });
-fs.copyFile('node_modules/@videojs/http-streaming/dist/videojs-http-streaming.js', 'public/javascripts/videojs-http-streaming.js', (err) => { if (err) { console.log(err) } });
+fs.copyFileSync('node_modules/video.js/dist/video.js', 'public/javascripts/video.js', (err) => { if (err) { console.log(err) } });
+fs.copyFileSync('node_modules/video.js/dist/video-js.css', 'public/stylesheets/video-js.css', (err) => { if (err) { console.log(err) } });
+fs.copyFileSync('node_modules/@videojs/http-streaming/dist/videojs-http-streaming.js', 'public/javascripts/videojs-http-streaming.js', (err) => { if (err) { console.log(err) } });
 
 //start rtmp server
 import nms from './streamingserver';

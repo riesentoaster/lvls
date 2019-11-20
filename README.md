@@ -1,6 +1,6 @@
 # localvideolivestream
 
-lvls is a project designed to allow for local and offline video-livestreaming. It uses [OBS](www.obsproject.com) as a streaming source and webbrowsers to play the video. It supports multiple stream sources and provides a basic GUI for users to choose which stream to watch.
+lvls is a project designed to allow for local and offline video-livestreaming. It uses OBS as a streaming source and webbrowsers to play the video. It supports multiple stream sources and provides a basic GUI for users to choose which stream to watch.
 
 - **[Setup](https://github.com/riesentoaster/lvls/blob/master/README.md#Setup)**
   - [Server](https://github.com/riesentoaster/lvls/blob/master/README.md#Server)
@@ -37,8 +37,7 @@ npm run start
 
 ### OBS
 
-The server will output you the address for obs to stream to. It will take the form of `rtmp://[server ip]/live`.
-The stream key is used as the name of the livestream.
+Install [OBS](www.obsproject.com). The server will output you the address for OBS to stream to. It will take the form of `rtmp://[server ip]/live`. The stream key is used as the name of the livestream.
 
 ### Clients
 

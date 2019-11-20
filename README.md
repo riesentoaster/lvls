@@ -6,25 +6,25 @@ lvls is a project designed to allow for local and offline video-livestreaming. I
 
 ### server
 
-In bash, navigate to the desired location and clone this git repository: 
+1) In bash, navigate to the desired location and clone this git repository: 
 
 ```bash
 git clone https://github.com/riesentoaster/lvls.git
 ```
 
-Change directory to the folder just created:
+2) Change directory to the folder just created:
 ```bash
 cd lvls
 ```
 
-If you haven't already, install [node.js](https://nodejs.org/en/download/).
+3) If you haven't already, install [node.js](https://nodejs.org/en/download/).
 
-Install nodejs-packages:
+4) Install nodejs-packages:
 ```bash
 npm install
 ```
 
-Run the server:
+5) Run the server:
 ```bash
 npm run start
 ```
@@ -43,4 +43,4 @@ The server will also output the address for the clients (smartphones, computers 
 
 #### Can lvls be used without an internet connection?
 
-The installation requires an internet connection, after that the server can be run offline.
+The installation (steps 1-4) requires an internet connection, after that the server can be run offline with `npm run start`.

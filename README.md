@@ -2,11 +2,11 @@
 
 lvls is a project designed to allow for local and offline video-livestreaming. It uses [OBS](www.obsproject.com) as a streaming source and webbrowsers to play the video. It supports multiple stream sources and provides a basic GUI for users to choose which stream to watch.
 
-### [Setup]()
-#### [server]()
-#### [OBS]()
-#### [clients]()
-### [FAQ]()
+#### [Setup]()
+[server]()
+[OBS]()
+[clients]()
+#### [FAQ]()
 
 ## setup
 

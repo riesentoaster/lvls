@@ -3,3 +3,8 @@ node_modules/
 
 # compiled files
 dist/
+
+# js-libraries
+public/javascripts/video.js
+public/javascripts/videojs-http-streaming.js
+public/stylesheets/video-js.css

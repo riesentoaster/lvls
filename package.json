@@ -5,8 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "install && compile && juststart",
-    "install": "npm install",
+    "start": "compile && juststart",
     "compile": "tsc",
     "juststart": "node dist/app.js",
     "devstart": "nodemon dist/app.js"

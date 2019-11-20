@@ -15,7 +15,7 @@
     "url": "https://github.com/riesentoaster/lvls.git"
   },
   "author": "riesentoaster",
-  "license": "CC-BY-SA",
+  "license": "CC-BY-SA-4.0",
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/cookie-parser": "^1.4.2",

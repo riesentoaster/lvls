@@ -1,27 +1,31 @@
 {
-  "name": "express-blueprint",
+  "name": "lvls",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "lvls is a project designed to allow for local and offline video-livestreaming",
+  "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node dist/app.js",
+    "start": "npm run install && npm run compile && npm run juststart",
+    "install": "npm install",
+    "compile": "tsc",
     "juststart": "node dist/app.js",
     "devstart": "nodemon dist/app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository: {
+    "type": "git",
+    "url": "https://github.com/riesentoaster/lvls.git"
+  }
+  "author": "riesentoaster",
+  "license": "CC-BY-SA",
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/cookie-parser": "^1.4.2",
-    "@types/dotenv": "^8.2.0",
     "@types/ejs": "^2.6.3",
     "@types/express": "^4.17.2",
     "@types/http-errors": "^1.6.2",
     "@types/morgan": "^1.7.37",
     "axios": "^0.19.0",
     "cookie-parser": "^1.4.4",
-    "dotenv": "^8.2.0",
     "ejs": "^2.7.3",
     "express": "^4.17.1",
     "http-errors": "^1.7.3",

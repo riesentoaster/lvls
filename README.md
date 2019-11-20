@@ -36,4 +36,4 @@ The stream key is used as the name of the livestream.
 
 ### clients
 
-The server will also output the address for the clients (smartphones, computers etc.) to connect to. It will take the form of `http://[server ip:3000/]`.
+The server will also output the address for the clients (smartphones, computers etc.) to connect to. It will take the form of `http://[server ip]:3000/`.

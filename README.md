@@ -1,6 +1,6 @@
 # localvideolivestream
 
-lvls is a project designed to allow for local and offline video-livestreaming. It uses [OBS](www.obsproject.com) as a streaming source and webbrowsers to play the video.
+lvls is a project designed to allow for local and offline video-livestreaming. It uses [OBS](www.obsproject.com) as a streaming source and webbrowsers to play the video. It supports multiple stream sources and provides a basic GUI for users to choose which stream to watch.
 
 ## setup
 
@@ -44,3 +44,7 @@ The server will also output the address for the clients (smartphones, computers 
 #### Can lvls be used without an internet connection?
 
 The installation (steps 1-4) requires an internet connection, after that the server can be run offline with `npm run start`.
+
+#### Can lvls be used to only stream audio?
+
+Technically no, but if you don't have a video source you don't have to select one in OBS. In this case, all users will just see a black screen. You could also just select a static image for your users to see.

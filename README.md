@@ -6,7 +6,7 @@ lvls is a project designed to allow for local and offline video-livestreaming. I
   - [Server](https://github.com/riesentoaster/lvls/blob/master/README.md#Server)
   - [OBS](https://github.com/riesentoaster/lvls/blob/master/README.md#OBS)
   - [Clients](https://github.com/riesentoaster/lvls/blob/master/README.md#Clients)
-- **[FAQ](FAQ)**
+- **[FAQ](#FAQ)**
 
 ## Setup
 

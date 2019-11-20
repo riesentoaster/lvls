@@ -6,7 +6,7 @@ lvls is a project designed to allow for local and offline video-livestreaming. I
   - [Server](https://github.com/riesentoaster/lvls/blob/master/README.md#Server)
   - [OBS](https://github.com/riesentoaster/lvls/blob/master/README.md#OBS)
   - [Clients](https://github.com/riesentoaster/lvls/blob/master/README.md#Clients)
-- **[FAQ](https://github.com/riesentoaster/lvls/blob/master/README.md#FAQ)**
+- **[FAQ](FAQ)**
 
 ## Setup
 
@@ -37,7 +37,7 @@ npm run start
 
 ### OBS
 
-Install [OBS](www.obsproject.com). The server will output you the address for OBS to stream to. It will take the form of `rtmp://[server ip]/live`. The stream key is used as the name of the livestream.
+Install [OBS](https://www.obsproject.com). The server will output you the address for OBS to stream to. It will take the form of `rtmp://[server ip]/live`. The stream key is used as the name of the livestream.
 
 ### Clients
 

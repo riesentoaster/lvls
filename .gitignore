@@ -8,3 +8,6 @@ dist/
 public/javascripts/video.js
 public/javascripts/videojs-http-streaming.js
 public/stylesheets/video-js.css
+
+# remaining stream snippets
+public/media/

@@ -56,7 +56,7 @@ app.listen(3000, () => {
     console.log('------------------------------------');
     getIP().map((ip) => {
         console.log(`URL for OBS: rtmp://${ip}/live, use the desired stream name as the stream key.`);
-        console.log(`URL for clients: http://${ip}:3000/`);
+        console.log(`URL for clients: http://${ip}:3000`);
     })
     console.log('------------------------------------');
 })

@@ -1,5 +1,5 @@
 import NodeMediaServer from "node-media-server";
-
+import ffmpeginstaller from "@ffmpeg-installer/ffmpeg";
 let nms = () => {
     const config = {
         logtype: 1,
@@ -16,7 +16,7 @@ let nms = () => {
             mediaroot: './public/media',
         },
         trans: {
-            ffmpeg: '/usr/local/bin/ffmpeg',
+            ffmpeg: ffmpeginstaller.path,
             tasks: [
                 {
                     app: 'live',

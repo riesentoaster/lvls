@@ -17,6 +17,7 @@
   "author": "riesentoaster",
   "license": "CC-BY-SA-4.0",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
     "@types/axios": "^0.14.0",
     "@types/cookie-parser": "^1.4.2",
     "@types/ejs": "^2.6.3",

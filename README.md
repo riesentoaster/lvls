@@ -30,6 +30,8 @@ cd lvls
 npm install
 ```
 
+You will see a few `WARN optional` and `WARN notsup`. This is due to the [ffmpeg-installer-package](https://www.npmjs.com/package/@ffmpeg-installer/ffmpeg) and can be ignored.
+
 5) Run the server:
 ```bash
 npm run start

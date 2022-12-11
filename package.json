@@ -26,7 +26,7 @@
     "axios": "^0.21.2",
     "cookie-parser": "^1.4.4",
     "ejs": "^2.7.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-errors": "^1.7.3",
     "morgan": "^1.9.1",
     "node-media-server": "^2.1.4",
